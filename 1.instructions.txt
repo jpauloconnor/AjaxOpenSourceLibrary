@@ -1,5 +1,5 @@
 I. Set up localhost
-	1. Set up package.json
+	1. Set up 1.package.json
 		
 		{
 		 "name": "ajax-example",
