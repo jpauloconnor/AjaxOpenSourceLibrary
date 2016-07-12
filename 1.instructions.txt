@@ -1,0 +1,35 @@
+I. Set up localhost
+	1. Set up package.json
+		
+		{
+		 "name": "ajax-example",
+		 "version": "0.0.1",
+		 "description": "friends app",
+		 "dependencies": {}
+		}
+
+	2. Set up express
+		npm install --save express@4.10.2
+
+	3. Create 1.index.js
+		var app = require('express')();
+		var http = require('http').Server(app);
+
+		app.get('/', function(request, response){
+			response.send('<h1>Hello World</h1>')
+		});
+
+		http.listen(3000, function(){
+			console.log('listening on *:3000')
+		});
+
+			1. Express initializes app to be a function handler that you can supply to an HTTP server (as seen in line 2).
+			2. We define a route handler / that gets called when we hit our website home.
+			3. We make the http server listen on port 3000.	
+
+	4. Run on node 1.index.js	
+
+II. Set up HTML page
+
+
+III.
