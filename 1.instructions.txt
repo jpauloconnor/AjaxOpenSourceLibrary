@@ -30,6 +30,14 @@ I. Set up localhost
 	6. Now run as 
 		npm start
 II. Set up HTML page
+	-see 1.ajax_example.html page
 
 
-III.
+
+
+
+
+	
+III. AJAX 
+
+How to do a "GET" request 
