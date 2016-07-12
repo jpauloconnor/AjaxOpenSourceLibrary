@@ -34,9 +34,6 @@ II. Set up HTML page
 
 
 
-
-
-
 	
 III. AJAX 
 
